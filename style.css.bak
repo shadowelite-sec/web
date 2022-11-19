@@ -1,0 +1,52 @@
+h1 {
+  background-color: #1b0919;
+  color: gray;
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: normal;
+
+  font: normal 16px Arial;
+  line-height: 3px;
+}
+
+h2 {
+  background-color: #000000;
+  color: #62a0ea;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #62a0ea;
+  color: white;
+  font-size: 20px;
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+
+  /* or */
+
+  border: 5px red solid;
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dashed;
+
+  padding: 10px;
+  margin: 20px;
+}
+
+.box-1 h1 {
+  font-size: 60px;
+  color: blue;
+  font-family: Hack;
+  font-weight: 1000;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
