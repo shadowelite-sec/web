@@ -6,6 +6,22 @@ body {
   width: 99.99%;
   margin: auto;
 }
+
+.button {
+  width: 10%;
+  background-color: #00bdfd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-style: oblique;
+  border: none;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: red;
+  color: white;
+}
+
 .box-1 {
   background-color: #121212;
   color: #e44d26;
@@ -48,7 +64,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #6b0090;
+  color: #f51e7a;
 }
 a:hover {
   color: red;
@@ -56,13 +72,12 @@ a:hover {
 a:active {
   color: green;
 }
-a:visited {
-  color: #f51e7a;
-}
+
 .list {
   border: 3px #0d99ff solid;
   padding: 10px;
   border-radius: 15px;
+  margin: 10px;
 }
 
 .list h1 {
@@ -82,3 +97,39 @@ a:visited {
   border-bottom: solid 2px #0d99ff;
   /* list-style-image: ;*/
 }
+
+.my-form {
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  /* border: 3px green solid;
+  border-radius: 10px;
+  */
+}
+
+.form-g {
+  color: #c276d7;
+  padding: 5px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 60%;
+}
+/* its apply even after global v*/
+/* .my-form input[type="submit"] {
+  width: 10%;
+  background-color: #00bdfd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-style: oblique;
+  border: none;
+  padding: 10px;
+  position: relative;
+  left: 1%;
+}*\
